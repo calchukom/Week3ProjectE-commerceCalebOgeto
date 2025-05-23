@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Product list with cart</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="main-container">
+
+    <h1 class="header-title">Desserts</h1>
+
+    <div class="left-items">
+      <!-- HERE IS WHERE ITEMS ARE RENDERED FROM MY JAVASCRIPT items.js -->
+
+         
+          
+    </div>
+
+            <div class="right-item">
+              <div class="right-item-item1">
+  
+
+                <div class="mycartlist">
+                  <h1 class="cart-item-header">Your Cart(<span id="myCounter">0</span>)</h1>
+
+
+                  <div class="myCartContent">
+
+                    <!-- This is where i will place all my cart items that have been clicked by the user -->
+
+                  </div>
+
+
+                  <div class="cartfooter">
+                    <div class="cart-footer-title">
+                      <h3>Order total</h3>
+                    </div>
+                    <div class="cart-footer-amount">
+                      <h1><b>$46.50</b></h1>
+                    </div>
+
+                    <div class="cart-footer-carbon">
+                      <div class="cart-footer-carbon-description">
+                        <img src="assets/images/icon-carbon-neutral.svg" alt="This is a carbon-neutral delivery icon">
+                        <p style="font-size: 20px;">This is a carbon neutral delivery</p>
+                      </div>
+                      <div class="cart-footer-confirmOrder">
+                        <p style="color: white;">Confirm Order</p>
+                      </div>
+                    </div>
+                  </div>
+                  
+                </div>
+                
+
+                
+              </div>
+            </div>
+
+  </div>
+
+  <script>
+    const itemsListEl = document.querySelector(".items");    
+  </script>
+
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
+    Coded by <a href="#">Caleb Ogeto</a>.
+  </div>
+
+  <script src="items.js"></script>
+  <script src="app.js"></script>
+
+</body>
+</html>
